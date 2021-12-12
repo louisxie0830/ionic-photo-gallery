@@ -1,0 +1,19 @@
+{
+  "name": "ionic-photo-gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/louisxie0830/ionic-photo-gallery.git"
+  },
+  "author": "Louis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/louisxie0830/ionic-photo-gallery/issues"
+  },
+  "homepage": "https://github.com/louisxie0830/ionic-photo-gallery#readme"
+}
