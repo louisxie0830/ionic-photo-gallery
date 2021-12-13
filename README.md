@@ -36,6 +36,11 @@ import { defineCustomElements } from '@ionic/pwa-elements/loader';
 defineCustomElements(window);
 ```
 
+## Install camera, storage, filesystem
+```
+cd project && npm install @capacitor/camera @capacitor/storage @capacitor/filesystem
+```
+
 ## Run the App
 
 ```
