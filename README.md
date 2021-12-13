@@ -1,11 +1,18 @@
 # ionic-photo-gallery
 
+## Install node v14
+```
+https://nodejs.org/en/
+```
 ## Homebrew install gradle
 ```
 brew install gradle
 ```
 
-
+## Install cocoapods
+```
+sudo gem install cocoapods
+```
 ## Homebrew install android studio
 ```
 brew install android studio
@@ -71,4 +78,10 @@ ionic cap open android
 ## Android Build
 ```
 ionic capacitor build android --prod
+```
+
+
+## iOS Build
+```
+ionic capacitor build ios --prod
 ```
