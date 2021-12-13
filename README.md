@@ -39,7 +39,7 @@ ionic cap add ios
 ```
 
 ```
-  ionic cap add android
+ionic cap add android
 ```
 
 ## iOS Deployment
@@ -50,4 +50,10 @@ ionic cap open ios
 ## Android Deployment Deployment
 ```
 ionic cap open android
+```
+
+
+## Android Build
+```
+ionic capacitor build android --prod
 ```
