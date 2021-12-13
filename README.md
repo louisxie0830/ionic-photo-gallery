@@ -1,5 +1,15 @@
 # ionic-photo-gallery
 
+## Homebrew install gradle
+```
+brew install gradle
+```
+
+
+## Homebrew install android studio
+```
+brew install android studio
+```
 
 ## Install Ionic Tooling
 
