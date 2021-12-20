@@ -20,7 +20,6 @@
 <script lang="ts">
 import { IonPage, IonHeader, IonToolbar, IonTitle, IonContent } from '@ionic/vue';
 import ExploreContainer from '@/components/ExploreContainer.vue';
-
 export default  {
   name: 'Tab3',
   components: { ExploreContainer, IonHeader, IonToolbar, IonTitle, IonContent, IonPage }
