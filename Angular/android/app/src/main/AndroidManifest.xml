@@ -18,6 +18,28 @@
             android:launchMode="singleTask">
 
             <intent-filter>
+                <!-- 常見的Activity Action Intent常量
+                常量名稱   常量值  意義
+                ACTION_MAIN  android.intent.action.MAIN   應用程式入口
+                ACTION_VIEW  android.intent.action.VIEW  顯示資料給使用者
+                ACTION_ATTACH_DATA  android.intent.action.ATTACH_DATA  指明附加資訊給其他地方的一些資料
+                ACTION_EDIT  android.intent.action.EDIT  顯示可編輯的資料
+                ACTION_PICK  android.intent.action.PICK  選擇資料
+                ACTION_CHOOSER  android.intent.action.CHOOSER  顯示一個Activity選擇器
+                ACTION_GET_CONTENT  android.intent.action.GET_CONTENT  獲得內容
+                ACTION_DIAL  android.intent.action.GET_CONTENT  顯示打電話面板
+                ACITON_CALL  android.intent.action.DIAL  直接打電話
+                ACTION_SEND  android.intent.action.SEND  直接發簡訊
+                ACTION_SENDTO  android.intent.action.SENDTO  選擇發簡訊
+                ACTION_ANSWER  android.intent.action.ANSWER  應答電話
+                ACTION_INSERT  android.intent.action.INSERT  插入資料
+                ACTION_DELETE  android.intent.action.DELETE  刪除資料
+                ACTION_RUN  android.intent.action.RUN  執行資料
+                ACTION_SYNC  android.intent.action.SYNC  同步資料
+                ACTION_PICK_ACTIVITY  android.intent.action.PICK_ACTIVITY  選擇Activity
+                ACTION_SEARCH  android.intent.action.SEARCH  搜尋
+                ACTION_WEB_SEARCH  android.intent.action.WEB_SEARCH  Web搜尋
+                ACTION_FACTORY_TEST  android.intent.action.FACTORY_TEST  工廠測試入口點    -->
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
