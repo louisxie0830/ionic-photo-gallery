@@ -1,5 +1,7 @@
 # ionic-photo-gallery
 
+![Angular-android](./images/Angular-android.png)
+
 ## Install node v14
 ```
 https://nodejs.org/en/
