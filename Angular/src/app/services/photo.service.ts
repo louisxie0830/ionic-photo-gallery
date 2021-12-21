@@ -14,7 +14,7 @@ export class PhotoService {
   public photos: UserPhoto[] = [];
   private PHOTO_STORAGE: string = 'photos';
 
-  constructor(private platform: Platform) {}
+  constructor(private platform: Platform) { }
 
   public async loadSaved() {
     // Retrieve cached photo array data
@@ -24,7 +24,7 @@ export class PhotoService {
     // If running on the web...
     if (!this.platform.is('hybrid')) {
       // Display the photo by reading into base64 format
-      for (let photo of this.photos) {
+      for (const photo of this.photos) {
         // Read each saved photo's data from the Filesystem
         const readFile = await Filesystem.readFile({
           path: photo.filepath,

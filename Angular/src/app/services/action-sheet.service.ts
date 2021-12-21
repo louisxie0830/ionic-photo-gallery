@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import { ActionSheet } from '@capacitor/action-sheet';
+import { ActionSheet, ShowActionsOptions } from '@capacitor/action-sheet';
 
 
 @Injectable({
@@ -9,16 +9,7 @@ export class ActionSheetService {
 
   constructor() { }
 
-  public async showActions(data: IAction) {
-    await ActionSheet.showActions(data);
-  }
-
-  interface Action {
-    title?: string;
-    message?: string;
-    options?: Array<{
-      title?: string;
-      style: any;
-    }>
+  public async showActions(options: ShowActionsOptions) {
+    await ActionSheet.showActions(options);
   }
 }
